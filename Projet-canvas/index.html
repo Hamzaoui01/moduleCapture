@@ -2,9 +2,38 @@
 	<html>
 	<head>
 		<title>Projet java</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="style.css">		
 	</head>
 	<body>
+	<div id="editMenu" style="display: none">
+		<table>
+			<tr>
+				<td>Hue :</td>
+				<td>Brightness</td>
+				<td>Contrast</td>
+			</tr>
+			<tr>
+				<td><input type="range" min="0" max="360" step="3" id="hue"></td>
+				<td><input type="range" min="20" max="200" step="1" id="brightness"></td>
+				<td><input type="range" min="20" max="200" step="1" id="contrast"></td>
+			</tr>
+			<tr>
+				<td>sepia :</td>
+				<td>saturate</td>
+				<td>grayscale</td>
+			</tr>
+			<tr>
+				<td><input type="range" min="20" max="200" step="1" id="sepia"></td>
+				<td><input type="range" min="20" max="200" step="1" id="saturate"></td>
+				<td><input type="range" min="20" max="200" step="1" id="grayscale"></td>
+			</tr>
+			<tr>
+				<td><button id="resize">Resize</button></td>
+				<td></td>
+				<td><button id="text">Text</button></td>
+			</tr>
+		</table>
+	</div>
 	<div id="container">
 	</div>
 	<button id="addPh"onclick="addPhoto()">Add photo</button>

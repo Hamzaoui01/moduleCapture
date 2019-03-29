@@ -1,5 +1,5 @@
 body{
-  text-align: center;
+  
 }
 button {
   background-color: #4CAF50; /* Green */
@@ -23,7 +23,6 @@ button {
 	font-size: 170px;
 	color: white;
 	margin-left: 250px;
-
 }
 		#overlay {
     position:absolute;
