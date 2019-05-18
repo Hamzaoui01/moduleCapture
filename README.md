@@ -4,11 +4,9 @@ Capture photo using camera
 This module catch a photo from a camera and implements Canvas technology to edit this photo.
 ## how it's work
 ### Opne the camera & Take a photo
-<img src="https://i.ibb.co/rkvnsM3/cam1.png" width="400"/>
+![alt text](https://i.ibb.co/rkvnsM3/cam1.png)
 ### Do some effects
-<p>
-<img src="https://i.ibb.co/DRRtKNJ/cam2.png" width="200"/>
- </p>
+![alt text](https://i.ibb.co/DRRtKNJ/cam2.png)
 ### cut a part from the photo
 ![alt text](https://i.ibb.co/TKvTspm/cam3.png)
 ### Do effects again
