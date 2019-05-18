@@ -4,9 +4,6 @@ Capture photo using camera
 This module catch a photo from a camera and implements Canvas technology to edit this photo.
 ## how it's work
 ### Opne the camera & Take a photo
-<p align="center">
-  <img width="460" height="300" src="https://i.ibb.co/rkvnsM3/cam1.png">
-</p>
 ![alt text](https://i.ibb.co/rkvnsM3/cam1.png)
 ### Do some effects
 ![alt text](https://i.ibb.co/DRRtKNJ/cam2.png)
@@ -21,7 +18,7 @@ npm install hamzaouimodule
 ```
 ## How to use it
 * Add myScript.js file link to your html page
-* Add the contents of the HTML file into a div inside your code HTML where the module should appear
+* Add the contents of the <body> ... </body> of HTML file  into a div inside your code HTML where the module should appear
 * Add myStyle.css link to your code
 * Use myStyle.css to change the composition style in the module
 
